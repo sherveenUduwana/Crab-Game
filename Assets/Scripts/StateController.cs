@@ -28,7 +28,9 @@ public class StateController : MonoBehaviour
     void Awake()
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
-        
+        navMeshAgent.updatePosition = false;
+        navMeshAgent.updateRotation = false;
+
     }
 
     void Update()

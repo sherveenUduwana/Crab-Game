@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class StateUI : MonoBehaviour {
-    StateController controller;
+    public StateController controller;
     public State[] statesToShow;
     public Sprite[] correspondingImages;
     private SpriteRenderer sprite;
@@ -14,7 +14,6 @@ public class StateUI : MonoBehaviour {
 
     void Awake()
     {
-        controller = transform.root.GetComponent<StateController>();
         sprite = GetComponent<SpriteRenderer>();
         sprite.enabled = true;
         remainInState = controller.remainState;

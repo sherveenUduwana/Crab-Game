@@ -104,6 +104,8 @@
     <Compile Include="Assets\FloatingEntities\Scripts\WakeGenerator.cs" />
     <Compile Include="Assets\HolyShift\Scripts\CheckForStandardAssets.cs" />
     <Compile Include="Assets\LaunchObject.cs" />
+    <Compile Include="Assets\Locomotion_Body.cs" />
+    <Compile Include="Assets\Locomotion_Leg.cs" />
     <Compile Include="Assets\MSAdvancedCameraController\Example\VehicleController.cs" />
     <Compile Include="Assets\MSAdvancedCameraController\Scripts\MSCameraController.cs" />
     <Compile Include="Assets\Noise.cs" />
