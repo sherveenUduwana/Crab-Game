@@ -100,7 +100,7 @@ public class Locomotion_Leg : MonoBehaviour
     {
         RaycastHit hit;
         position = new Vector3(position.x, position.y + 100, position.z);
-        int layerMask = LayerMask.GetMask("Water");
+        int layerMask = LayerMask.GetMask("Ground");
         if (Physics.Raycast(new Ray(position, Vector3.down), out hit, 1000f, layerMask))
         {
             return hit.point;

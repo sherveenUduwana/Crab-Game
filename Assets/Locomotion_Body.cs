@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.AI;
 
 public class Locomotion_Body : MonoBehaviour {
-    
     public int numberOfLegs;
     public int legsOnGround;
 
